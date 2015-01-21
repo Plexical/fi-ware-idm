@@ -66,3 +66,5 @@ gem "galetahub-simple_captcha", :require => "simple_captcha"
 gem 'rack-cors', require: 'rack/cors'
 
 gem 'sanitize', '= 2.1.0'
+
+gem 'thin', '= 1.6.3'
