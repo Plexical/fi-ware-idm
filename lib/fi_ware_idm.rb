@@ -1,15 +1,15 @@
 module FiWareIdm
   mattr_accessor :domain
-  @@domain = 'account.lab.fi-ware.org'
+  @@domain = ENV['KEYROCK_DOMAIN'] or 'account.lab.fi-ware.org'
 
   mattr_accessor :subdomain
-  @@subdomain = 'lab.fi-ware.org'
+  @@subdomain = ENV['KEYROCK_SUBDOMAIN'] or 'lab.fi-ware.org'
 
   mattr_accessor :sender
-  @@sender = 'no-reply@account.lab.fi-ware.org'
+  @@sender = ENV['KEYROCK_SENDER'] or 'no-reply@account.lab.fi-ware.org'
 
   mattr_accessor :name
-  @@name = "FI-LAB"
+  @@name = ENV['KEYROCK_NAME'] or "FI-LAB"
 
   mattr_accessor :logo
   @@logo = 'Fi-lab.png'
