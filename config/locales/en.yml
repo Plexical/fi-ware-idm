@@ -1,4 +1,6 @@
-# Sample localization file for English. Add more files in this directory for other locales.
+# Sample localization file for English. Add more files in this directory
+# for other locales.
+#
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
@@ -76,7 +78,7 @@ en:
         link: "Add application"
         title: "Register new application"
     current:
-      description: Create and manage your FIWARE account
+      description: Create and manage your Pleathub account
       keywords: fi-ware, fi-lab, fi-ware-portal, fi-ware-gei, fi-ware-cloud, fi-ware-accounts, fi-ware-wirecloud, fi-ware-store, context-broker-orion, bigdata-cosmos, GE, oauth2
       title: FIWARE Identity Manager
     name: FIWARE IdM
