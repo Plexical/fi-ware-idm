@@ -106,6 +106,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    daemons (1.1.9)
     deep_merge (1.0.0)
     deface (0.9.1)
       nokogiri (~> 1.5.0)
@@ -118,6 +119,7 @@ GEM
     diff-lcs (1.2.4)
     diffy (3.0.1)
     erubis (2.7.0)
+    eventmachine (1.0.4)
     exception_notification (3.0.1)
       actionmailer (>= 3.0.4)
     execjs (2.0.2)
@@ -302,6 +304,10 @@ GEM
       actionpack (~> 3.0)
       activemodel (~> 3.0)
       railties (~> 3.0)
+    thin (1.6.3)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0)
+      rack (~> 1.0)
     thinking-sphinx (2.0.14)
       activerecord (>= 3.0.3)
       builder (>= 2.1.2)
@@ -342,4 +348,5 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   social_stream-base!
   social_stream-oauth2_server!
+  thin (= 1.6.3)
   uglifier (>= 1.0.3)
