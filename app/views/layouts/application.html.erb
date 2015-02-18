@@ -30,6 +30,13 @@
         <%= yield :javascript %>
       })
     </script>
+
+    <!-- Bootstrap -->
+    <link href="/dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Flat UI -->
+    <link href="/dist/css/flat-ui.css" rel="stylesheet">
+    <link href="/docs/assets/css/demo.css" rel="stylesheet">
   </head>
   
   <body>
@@ -43,5 +50,7 @@
     </div>  
     <%= render :partial => "layouts/footer" %>
 
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js">
+    </script>
   </body>
 </html>
