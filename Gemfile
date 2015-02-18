@@ -45,6 +45,8 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl', '1.3.3'
+  gem 'byebug'
+  gem 'pry-byebug'
 end
 
 # gem 'omniauth-social_stream', path: '../omniauth-social_stream'
