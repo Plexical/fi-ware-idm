@@ -69,3 +69,6 @@ gem "galetahub-simple_captcha", :require => "simple_captcha"
 gem 'rack-cors', require: 'rack/cors'
 
 gem 'sanitize', '= 2.1.0'
+
+# Passenger stuff
+gem 'daemon_controller'
