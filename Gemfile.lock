@@ -80,6 +80,8 @@ GEM
       paperclip (>= 2.3.4)
       rmagick (>= 2.13.1)
     bcrypt-ruby (3.1.2)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
     bootstrap-sass (2.3.2.2)
       sass (~> 3.2)
     builder (3.0.4)
@@ -112,6 +114,7 @@ GEM
     columnize (0.9.0)
     daemon_controller (1.2.0)
     daemons (1.1.9)
+    debug_inspector (0.0.2)
     debugger-linecache (1.2.0)
     deep_merge (1.0.0)
     deface (0.9.1)
@@ -224,6 +227,9 @@ GEM
       pry (~> 0.9.12)
     pry-rails (0.3.2)
       pry (>= 0.9.10)
+    pry-stack_explorer (0.4.9.2)
+      binding_of_caller (>= 0.7)
+      pry (>= 0.9.11)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -352,6 +358,7 @@ DEPENDENCIES
   mysql2
   pry-byebug
   pry-rails
+  pry-stack_explorer
   rack-cors
   rails (= 3.2.14)
   rest-client

@@ -47,6 +47,7 @@ group :development, :test do
   gem 'factory_girl', '1.3.3'
   gem 'byebug'
   gem 'pry-byebug'
+  gem 'pry-stack_explorer'
 end
 
 # gem 'omniauth-social_stream', path: '../omniauth-social_stream'
