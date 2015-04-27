@@ -71,6 +71,7 @@ ul.oil-portal{
   margin-bottom: 0px;
   margin-left: 2px;
   float: left;
+  display: none; /* for now */
 }
 
 ul.oil-portal li{

@@ -13,7 +13,7 @@
         </span> 
       </a>
 
-      <ul class="dropdown-menu dropdown-menu-header">
+      <ul class="dropdown-menu dropdown-menu-header" style="display: none">
         <li class="cloud <%= active_official_app(:cloud) %>">
           <%= link_to 'Cloud', fiware_env_url(subdomain: 'cloud') %>
         </li>
@@ -35,7 +35,7 @@
       </ul>
     </div>
 
-    <ul class="oil-portal hidden-phone hidden-tablet">
+    <ul class="oil-portal hidden-phone hidden-tablet" style="display: none">
       <li class="cloud <%= active_official_app(:cloud) %>">
         <%= link_to 'Cloud', fiware_env_url(subdomain: 'cloud') %>
       </li>
