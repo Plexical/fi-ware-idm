@@ -35,10 +35,12 @@ FiWareIdm::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  # Send mail via `sendmail`
-  config.action_mailer.delivery_method = :sendmail
-  config.action_mailer.sendmail_settings = {
-    :location => '/usr/sbin/sendmail',
-    :arguments => '-i -t'
+  # Send mail via Mandrill
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :address   => "smtp.mandrillapp.com",
+    :port      => 587,
+    :user_name => ENV["MANDRILL_USERNAME"],
+    :password  => ENV["MANDRILL_API_KEY"]
   }
 end
